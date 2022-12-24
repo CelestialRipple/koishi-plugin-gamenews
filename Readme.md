@@ -12,7 +12,7 @@
 ### 使用方法
 
 * 预先安装axios环境 npm install axios
-* Release下载最新版本插件
+* Release下载最新版本插件（或者直接wget）
 * 上传至Koishi插件所在路径（或是Docker镜像内），一般位于/koishi/plugins
 * 解压后自动创建Koishi-plugin-gamenews文件夹
 * 进入lib文件夹修改index.js文件
@@ -29,4 +29,5 @@
 
 * api有时会返回错误，导致出现undefined
 * 无法发送新闻图片
+* 部分字数过长的新闻无法发送
 * 更多功能开发中...
