@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-gamenews",
-  "description": "每日新闻资讯",
+  "description": "每日主机游戏新闻资讯",
   "private": false,
   "version": "1.0.0",
   "main": "lib/index.js",
@@ -12,12 +12,12 @@
   "license": "MIT",
   "scripts": {},
   "keywords": [
-    "chatbot",
+    "gamenews",
     "koishi",
     "plugin"
   ],
   "peerDependencies": {
-    "koishi": "4.9.9"
+    "koishi": "^4.9.9"
   },
   "dependencies": {
     "axios": "^1.2.1"
